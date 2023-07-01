@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WebAppSR3MOD3/1.0.0": {
+        "dependencies": {
+          "DatabaseLib": "1.0.0"
+        },
+        "runtime": {
+          "WebAppSR3MOD3.dll": {}
+        }
+      },
+      "DatabaseLib/1.0.0": {
+        "runtime": {
+          "DatabaseLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebAppSR3MOD3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DatabaseLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿@{
+}
+<div class="text-center">
+    <h2>All goods of longest name buyer:</h2>
+    <p><a href="/home/application">Back to the list of functions</a></p>
+</div>
+<ul>
+    @foreach (var t in (IEnumerable<string>)ViewData["output"])
+    {
+            <li>@t</li>
+    }
+</ul>
